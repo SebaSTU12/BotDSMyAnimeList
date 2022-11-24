@@ -1,0 +1,17 @@
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.hooks.ListenerAdapter;
+import org.jetbrains.annotations.NotNull;
+
+public class BotListener extends ListenerAdapter {
+    @Override
+    public void onMessageReceived(@NotNull MessageReceivedEvent event){
+
+        /*
+        if (!event.getAuthor().isBot()){
+            String messageSent = event.getMessage().getContentRaw();
+            event.getTextChannel().sendMessage("El mensaje enviado: " + messageSent).queue();
+        }
+         */
+    }
+
+}
